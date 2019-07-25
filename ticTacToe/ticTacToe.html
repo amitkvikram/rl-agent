@@ -1,0 +1,124 @@
+<script>
+
+</script>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    #wrapper{
+        display: grid;
+        grid-template-rows: 70px 70px 70px;
+        grid-template-columns: 70px 70px 70px;
+        /* max-width: 210px; */
+        justify-content: center;
+        align-content: start;	
+    }
+
+[class*="cell_"]{
+    margin : 1px;
+    background-color: rgb(4, 8, 61);
+    font-size : 60px;
+    color: white;
+    text-align: center;
+}
+
+[class*="cell_"]:hover{
+    background-color: rgb(3, 3, 36);
+    cursor: pointer;
+}
+
+.cell_1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.cell_2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.cell_3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.cell_4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.cell_5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.cell_6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.cell_7{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.cell_8{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.cell_9{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+</style>
+<html>
+    <div id = "wrapper">
+        <div class = "cell_1">X
+        </div>
+
+        <div class = "cell_2">
+            0
+        </div>
+        <div class = "cell_3">
+
+        </div>
+
+        <div class = "cell_4">
+
+        </div>
+        <div class = "cell_5">
+
+        </div>
+
+        <div class = "cell_6">
+
+        </div>
+        <div class = "cell_7">
+
+        </div>
+        <div class = "cell_8">
+
+        </div>
+
+        <div class = "cell_9">
+
+        </div>   
+    </div>
+</html>
