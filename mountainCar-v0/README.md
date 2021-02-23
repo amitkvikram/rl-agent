@@ -1,4 +1,4 @@
-# OepnAI MountainCar-v0
+# OpenAI MountainCar-v0
 ![](./mountainCar.gif)
 ### Training an Agent to solve the openAI gym's mountain car problem.
 1. [Environment Details](https://github.com/openai/gym/wiki/MountainCar-v0)
